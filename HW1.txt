@@ -1,8 +1,10 @@
 Jennifer Goodell and Alex Zhang
+Steps to using github:
 
-Jennifer is working on her new branch. 
+1.  Make sure you are in the correct folder!
+2.  Add a branch using git checkout -b nameofnewbranch
+3.  remote add your branch using git push -u origin nameofnewbranch or by working within that branch and pushing 
+changes up directly from there
+4.  Make sure the other person is a collaborator!
+5.  fixed conflict using fetch and pull 
  
-
-Alex Changed the HW1!!!!!
-
-and remember check this and change mine!
