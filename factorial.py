@@ -68,3 +68,34 @@ print("Byte of Storage =",math.ceil(len(bin(Z))/8))
 Z = math.factorial(X) - math.factorial(Y)
 print("*test*","Z =",math.factorial(X),"-",math.factorial(Y),"=",Z,"*test*")
 
+
+# A factorial function
+Alist = list(range(1,A+1,1))
+Afact = 1
+
+for k in Alist:
+    Afact = Afact*k
+
+print("Alist =", Alist)
+print("Afact =", Afact)
+
+# B factorial function
+Blist = list(range(1,B+1,1))
+Bfact = 1
+
+for l in Blist:
+    Bfact = Bfact*k
+
+print("Blist =", Blist)
+print("Bfact =", Bfact)
+
+# the final process A + B
+C = Afact + Bfact
+print("C =",Afact,"+",Bfact,"=",C)
+print("length of C =",len(str(C)))
+print("Byte of Storage =",math.ceil(len(bin(C))/8))
+
+# Test
+
+C = math.factorial(A) + math.factorial(B)
+print("*test*","C =",math.factorial(A),"+",math.factorial(B),"=",C,"*test*")
