@@ -7,7 +7,8 @@ Steps to using github:
 3.  remote add your branch using git push -u origin nameofnewbranch or by working within that branch and pushing 
 changes up directly from there
 4.  Make sure the other person is a collaborator!
-5.  
+5.  Fixed conflict using fetch and pull, but still not sure exactly what the 
+difference is between the two
  
 
 Right now Jennifer is trying to figure out how to add one of Alex's files
