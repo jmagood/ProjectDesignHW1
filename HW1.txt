@@ -24,3 +24,16 @@ the file.
 
 We have a few good files in Alex and a few good files in Master (because I 
 already merged Jennifer), but we don't know how to pick and choose.  
+
+
+How to merge a single file with master:
+	1.  Create a new branch for that file.
+		This new branch will contain all elements of master
+		You will only apply edits to the file in question
+	2.  Open that file and the desired version of that file side-by-side
+		You may have to switch branches to find the desired file.
+	3.  Copy paste the desired version into the branch version
+	4.  Make sure you switched back to the newly created branch!
+	5.  Add, commit, and push the desired version.  
+	5.  Merge branch with the desired version to master
+		This does not appear to affect other files.  
