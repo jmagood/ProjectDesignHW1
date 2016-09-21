@@ -1,4 +1,5 @@
 Jennifer Goodell and Alex Zhang
+
 Steps to using github:
 
 1.  Make sure you are in the correct folder!
@@ -6,5 +7,20 @@ Steps to using github:
 3.  remote add your branch using git push -u origin nameofnewbranch or by working within that branch and pushing 
 changes up directly from there
 4.  Make sure the other person is a collaborator!
-5.  fixed conflict using fetch and pull 
+5.  Fixed conflict using fetch and pull, but still not sure exactly what the 
+difference is between the two
  
+
+Right now Jennifer is trying to figure out how to add one of Alex's files
+to github without having to merge the whole branch.  
+
+I thought that going into the master branch and using git add on the file 
+would work, but it is not.  It says that I don't have permission to fetch 
+the files in question, though I can fetch them when I am in that branch.  
+
+I tried copying the document from my branch to the desktop and then moving 
+it into the master file after I switched branches, but it does not recognize
+the file.  
+
+We have a few good files in Alex and a few good files in Master (because I 
+already merged Jennifer), but we don't know how to pick and choose.  
